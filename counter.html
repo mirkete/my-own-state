@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mirstate test</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/counter-styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1 style="color: rgb(37, 37, 37);">MirState</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a class="anchor" href="/">Inicio</a></li>
+          <li><a class="anchor anchor-selected" href="/counter.html">Contador</a></li>
+          <li><a class="anchor" href="/color-changer.html">Color changer</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="counter">
+      <p id="counter">0</p>
+      <div class="buttons">
+        <button id="decrement">-</button>
+        <button id="increment">+</button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./script/mirstate.js"></script>
+  <script type="module" src="./script/contador.js"></script>
+</body>
+</html>

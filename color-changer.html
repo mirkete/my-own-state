@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mirstate Color-changer</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/color-changer-styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1 style="color: rgb(37, 37, 37);">MirState</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a class="anchor" href="/">Inicio</a></li>
+          <li><a class="anchor" href="/counter.html">Contador</a></li>
+          <li><a class="anchor anchor-selected" href="/color-changer.html">Color changer</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="color-changer">
+      <div class="color-box"></div>
+      <input id="color-input" type="text" placeholder="Escribe el color aqui (codigo o nombre en ingles)">
+    </div>
+  </div>
+  <script type="module" src="./script//color-changer.js"></script>
+</body>
+</html>
